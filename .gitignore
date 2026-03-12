@@ -1,0 +1,67 @@
+
+*.json
+key.json
+.env# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+node_modules 2/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.genkit/*
+.env*
+
+# Google Cloud credentials (sensitive)
+google-credentials.json
+google_credentials.json
+
+# firebase
+firebase-debug.log
+firestore-debug.log
+
+# Kiro AI assistant files (keep local only)
+.kiro/
+
+cloudbuild.yaml
+key.json
+
+key.json

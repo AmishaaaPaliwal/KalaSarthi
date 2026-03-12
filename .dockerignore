@@ -1,0 +1,23 @@
+# Ignore Docker-related files and folders
+Dockerfile
+.dockerignore
+
+# Node modules
+node_modules
+
+# Logs
+*.log
+
+# Build output
+dist
+build
+
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp
+*.tmp
